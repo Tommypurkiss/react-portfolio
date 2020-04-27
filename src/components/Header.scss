@@ -1,0 +1,150 @@
+
+.Header-div {
+
+.Header {
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    float: left;
+
+    .logo {
+        float: left;
+        font-size: 20px;
+
+        a {
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-size: 18px;
+
+            &:hover {
+
+                color: #989ca6;
+            }
+        }
+        
+    }
+
+    nav {
+        float: right;
+        font-size: 18xp;
+        ul {
+            display: inline-block;
+            li {
+                display: inline-block;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                    text-transform: uppercase;
+                    letter-spacing: 0.5px;
+                    font-size: 18px;
+
+                    &:hover {
+
+                        color: #989ca6;
+                    }
+                }
+                &:nth-child(1) {
+                    margin-right: 50px;
+                }
+
+                &:nth-child(2) {
+                    margin-right: 50px;
+                }
+            }
+        }
+    }
+
+
+}
+}
+
+// @media only screen and (max-width: 1200px) {
+    
+//     .Header {
+//         padding: 0 20px;
+
+
+//     }
+
+// }
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+
+    .Header {
+        height: 80px;
+        line-height: 80px;
+        width: 100%;
+        float: left;
+
+        .menu-btn {
+            cursor: pointer;
+            font-size: 20px;
+            display: block;
+            float: right;
+        }
+    
+        .logo {
+            float: left;
+            font-size: 20px;
+    
+            a {
+                text-decoration: none;
+                color: black;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+                font-size: 18px;
+            }
+        }
+    
+        nav {
+            display: none;
+        }
+
+        .side-nav-wrapper {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            display: block;
+            top: 0;
+            right: 0;
+            background-color: black;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 150px;
+            text-align: center;
+
+            a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: white;
+                display: block !important;
+                transition: 0.3s;
+    
+                &:hover {
+                    color: #818181;
+                }
+            }
+            .closebtn {
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                color: white;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+    
+        }
+    }
+
+
+}
