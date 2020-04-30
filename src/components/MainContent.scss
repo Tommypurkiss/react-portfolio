@@ -5,7 +5,7 @@
     max-width: 1200px;
     margin: 0 auto;
 
-    .section-one {
+    .welcome-section {
 
         height: 100vh;
         width: 100%;
@@ -41,8 +41,9 @@
         
     }
 
-    .section-two {
-        height: 1000px;
+    .project-section {
+        // height: 1000px;
+        padding-bottom: 20px;
         
         h2 {
             text-align: center;
@@ -85,7 +86,7 @@
             flex: 1;
             flex-wrap: wrap;
             justify-content: center;
-
+            
             
 
 
@@ -94,10 +95,13 @@
                 height: 400px;
                 width: 400px;
                 border: 1px solid black;
-                background-color: red;
-                
             }
         }
+    }
+
+    .about-section {
+        background-color: lightgray;
+        height: 1000px;
     }
 
 }
@@ -110,14 +114,14 @@
     .Main-content-wrapper {
         margin: 0 40px;
 
-        .section-one {
+        .welcome-section {
 
             h1 {
 
                 font-size: 7em;
             }
         }
-        .section-two {
+        .project-section {
 
             .project-types-titles {
             
