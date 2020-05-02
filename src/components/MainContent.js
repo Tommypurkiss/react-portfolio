@@ -53,18 +53,34 @@ export default function MainContent() {
                     <h2>Some of my work</h2>
                 </div>
                 <div className="projects-cards-container row">
+                    {/* ADD MORE AS NECESSARY */}
+                    <div className="project-card">
+                        {/* react portfolio */}
+                        
+                        <img src={require('../reactportfolio.png')} className="react-portfolio-img" alt="React Portfolio"></img>
 
-                    <div className="project-card">
-                        hello
                     </div>
                     <div className="project-card">
-                        hello
+                        {/* android weather */}
+
+                        <img src={require('../androidweather.png')} alt="Android Weather"></img>
+
                     </div>
-                    <div className="project-card">
-                        hello
+                    <div className="project-card ">
+                        {/* android onlynote */}
+
+                        <img src={require('../androidonlynote.png')} alt="Android Onlynote"></img>
                     </div>
                 </div>
 
+            </section>
+
+            <hr></hr>
+
+            <section className="skills-section">
+                <div className="skills-title" id="skills-title">
+                    <h2>What I can do</h2>
+                </div>
             </section>
 
             {/* <div className="welcome-section">
