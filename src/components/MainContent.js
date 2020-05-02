@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 import './MainContent.scss'
 
 import {
@@ -11,20 +12,88 @@ import {
 
 export default function MainContent() {
 
+    // function moveHelloTitles() {
+    //     const bottomHello = document.getElementsByClassName('bottom-hello');
+    //     const topHello = document.getElementsByClassName('top-hello');
 
+
+    // }
 
     return (
         <div className="Main-content-wrapper">
 
-            <div className="welcome-section">
+            <section className="welcome-section">
+                <div className="welcome-title">
+                    <h1>Hello.</h1>
+                </div>
+                <div className="welcome-text-container row">
+                    <div className="text-one">
+                        <p>
+                            I'm Tommy, a Frontend Developer based in the United Kingdom. I like to design and create beautiful websites, that perform well with a focus on responsive design. 
+                        </p>
+                    </div>
+                    <div className="text-two">
+                        <p>
+                        {/* I'm Tommy, a Frontend Developer based in the United Kingdom. I like to design and create beautiful websites, that perform well with a focus on responsive design.  */}
+                            I also have worked with some mobile programming in Android and iOS. I'm always keen to learn new skills as a Developer.
+                        </p>
+                    </div>
+                    <div className="text-three">
+                        <p>
+                        Have a project idea you want to work on? Get in touch so we can work together to create something amazing.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <hr></hr>
+
+            <section className="project-section">
+                <div className="project-title" id="projects-title">
+                    <h2>Some of my work</h2>
+                </div>
+                <div className="projects-cards-container row">
+
+                    <div className="project-card">
+                        hello
+                    </div>
+                    <div className="project-card">
+                        hello
+                    </div>
+                    <div className="project-card">
+                        hello
+                    </div>
+                </div>
+
+            </section>
+
+            {/* <div className="welcome-section">
                 <h1 className="h1-one">
                     hello.
                 </h1>
-                <h1 className="h1-two">
+                <h1 className="h1-two top-hello">
                     hello.
                 </h1>
-            </div>
-            <div className="project-section">
+                <h1 className="h1-three bottom-hello">
+                    hello.
+                </h1>
+                <div className="welcome-text">
+                    <div className="text-one">
+                        <p>
+
+                        </p>
+                    </div>
+                    <div className="text-two">
+                        <p>
+
+                        </p>
+                    </div>
+                </div>
+            </div> */}
+
+
+
+            {/* <div className="project-section">
                 <h2 id="projects-title">Projects</h2>
 
                 <Router>
@@ -39,8 +108,10 @@ export default function MainContent() {
                 </div>
                 
                 <Switch>
-                <div className="projects-container">
-                    
+                <div className="projects-container" >
+                    <Route exact path="/" render={() => (
+                        <AllComponent />
+                    )} />
                     <Route path="/all">
                         <AllComponent />
                     </Route>
@@ -59,7 +130,7 @@ export default function MainContent() {
 
             <div className="about-section">
 
-            </div>
+            </div> */}
         </div>
     )
 }

@@ -26,7 +26,9 @@ export default function Header() {
             <nav>
                 <ul>
                     <li><a href="#projects-title">Projects</a></li>
-                    <li><a href="#about">About</a></li>
+                    {/* <li><a href="#about">About</a></li> */}
+                    <li><a href="#skills">Skills</a></li>
+
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -35,7 +37,9 @@ export default function Header() {
                 <span className="closebtn" onClick={closeNav}>&times;</span>
 
                 <a href="#projects-title" onClick={closeNav}>Projects</a>
-                <a href="#about" onClick={closeNav}>About</a>
+                {/* <a href="#about" onClick={closeNav}>About</a> */}
+                <a href="#skills" onClick={closeNav}>Skills</a>
+
                 <a href="#contact" onClick={closeNav}>Contact</a>
             </div>
         </header>
