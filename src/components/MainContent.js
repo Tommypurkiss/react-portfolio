@@ -71,7 +71,7 @@ export default function MainContent() {
                 <div className="skills-container row ">
                     <div className="skills-card">
                         <div className="skills-img">
-                            <img src={require('../imgs/web-tech-logos/html5.svg')} alt="HTML3"></img>
+                            <img src={require('../imgs/web-tech-logos/html-5.svg')} alt="HTML3"></img>
                         </div>
                         <div className="skills-text">
                             HTML5
