@@ -29,7 +29,7 @@ export default function Header() {
                     {/* <li><a href="#about">About</a></li> */}
                     <li><a href="#skills-title">Skills</a></li>
 
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact-title">Contact</a></li>
                 </ul>
             </nav>
             <div className="side-nav-wrapper hidden" id="side-nav-wrapper" >
@@ -38,9 +38,9 @@ export default function Header() {
 
                 <a href="#projects-title" onClick={closeNav}>Projects</a>
                 {/* <a href="#about" onClick={closeNav}>About</a> */}
-                <a href="#skills" onClick={closeNav}>Skills</a>
+                <a href="#skills-title" onClick={closeNav}>Skills</a>
 
-                <a href="#contact" onClick={closeNav}>Contact</a>
+                <a href="#contact-title" onClick={closeNav}>Contact</a>
             </div>
         </header>
         </div>
