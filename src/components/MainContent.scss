@@ -118,70 +118,12 @@
         }
     }
 
-    // .project-section {
-    //     // height: 1000px;
-    //     padding-bottom: 20px;
-    //     border: 1px solid black;
-
-        
-    //     h2 {
-    //         text-align: center;
-    //     }
-    //     .project-types-titles {
-    //         // width: 100%;
-    //         // display: flex;
-    //         // justify-content: space-evenly;
-    //         // line-height: 50px;            
-    //         // height: 50px;
-
-    //         width: 100%;
-    //         border: 1px solid black;
-    //         text-align: center;
-    //         padding: 10px 0px;
-
-    
-  
-
-    //         .proj-link {
-    //             padding: 0 50px;
-    //             text-decoration: none;
-    //             color: black;
-    //             cursor: pointer;
-    //             font-size: 18px;
-    //             letter-spacing: 0.5px;
-                
-    //             &:hover {
-    //                 color: #989ca6;
-    //             }
-    //         }
-
-            
-    //     }
-
-    //     .projects-container {
-
-    //         border: 1px solid black;
-    //         display: flex;
-    //         flex: 1;
-    //         flex-wrap: wrap;
-    //         justify-content: center;
-            
-            
-
-
-    //         .test {
-    //             // flex: 0 auto;
-    //             height: 400px;
-    //             width: 400px;
-
-    //             border: 1px solid black;
-    //         }
-    //     }
-    // }
 
     .skills-section {
-        width: 100%;
-
+        // width: 100%;
+        // position: absolute;
+        // left: 0;
+        // background-color: rgb(236, 236, 236);
 
         .skills-title {
 
@@ -191,7 +133,63 @@
                 font-size: 2.5em;
             }
         }
+
+        .skills-container {
+            // width: 100vw;
+            // height: 1000px;
+            justify-content: space-between;
+
+            // border: 1px solid black;
+
+
+            .skills-card {
+
+                height: 200px;
+                width: 300px;
+                margin: 10px 0;
+                border-radius: 14px;
+                border: 2px solid rgb(236, 236, 236);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                
+
+                .skills-img {
+                    // height: 150px;
+                    width: 80px;
+                    // border: 1px solid black;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+
+                }
+                .skills-text {
+                    height: 40px;
+                    line-height: 40px;
+                    width: 100%;
+                    // border: 1px solid black;
+                    text-align: center;
+
+                }
+            }
+
+        }
+
+
+        // .welcome-text-container {
+        //     width: 100%;
+
+        //     padding-top: 10vh;
+        //     font-size: 18px;
+        //     color: #433f40;
+
+            
+        // }
     }
+
 
 }
 
@@ -325,6 +323,76 @@
             width: 320px;
 
         }
+    }
+
+    .skills-container {
+        // width: 100vw;
+        // height: 1000px;
+        justify-content: space-around !important;
+
+        // border: 1px solid black;
+
+
+        .skills-card {
+           
+            width: 200px !important;
+            
+            
+
+            .skills-img {
+                // height: 200px;
+                // width: 200px;
+                // width: 60px !important;
+
+                // border: 1px solid black;
+
+            }
+            .skills-text {
+                // height: 100px;
+                // width: 100%;
+                // border: 1px solid black;
+
+            }
+        }
+
+    }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .skills-container {
+        // width: 100vw;
+        // height: 1000px;
+        // justify-content: space-around !important;
+
+        // border: 1px solid black;
+
+
+        .skills-card {
+           
+            width: 120px !important;
+            
+            
+
+            .skills-img {
+                // height: 200px;
+                // width: 200px;
+                // width: 60px !important;
+                // width: 90% !important;
+                // border: 1px solid black;
+
+            }
+            .skills-text {
+                // height: 100px;
+                // width: 100%;
+                // border: 1px solid black;
+                font-size: 14px;
+
+            }
+        }
+
     }
 
 }
