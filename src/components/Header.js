@@ -20,7 +20,8 @@ export default function Header() {
         <div className="Header-div">
             <header className="Header">
             <div className="logo">
-                <a href="#">tommypurkiss</a>
+                {/* <a href="#">tommypurkiss</a> */}
+                tommypurkiss
             </div>
             <span className="menu-btn hidden" onClick={openNav}>&#9776;</span>
             <nav>

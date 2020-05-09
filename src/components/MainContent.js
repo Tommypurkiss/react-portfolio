@@ -9,6 +9,9 @@ export default function MainContent() {
 
 
 
+
+
+
     return (
         <div className="Main-content-wrapper">
 
@@ -19,7 +22,7 @@ export default function MainContent() {
                 <div className="welcome-text-container row">
                     <div className="text text-one">
                         <p>
-                            I'm Tommy, a Frontend Developer based in the United Kingdom. I like to design and create beautiful websites, that perform well with a focus on responsive design. 
+                            I'm Tommy, a Frontend Developer based in the United Kingdom. I'm passionate about designing and creating beautiful websites, that perform well with a focus on responsive design. 
                         </p>
                     </div>
                     <div className="text text-two">
@@ -33,6 +36,7 @@ export default function MainContent() {
                         </p>
                     </div>
                 </div>
+
             </section>
 
             <hr></hr>
